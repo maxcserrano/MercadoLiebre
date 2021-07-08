@@ -7,6 +7,10 @@ app.listen(process.env.PORT || 3000, function() {
     console.log('Servidor funcionando en el puerto 3000');
 });
 
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
+});
+
 app.get('/home', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
