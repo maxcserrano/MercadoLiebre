@@ -269,6 +269,25 @@ form button:hover {
     
     header nav{
         display: inherit;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #primeraParte{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    #segundaParte {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 40%;
+        justify-content: space-between;
     }
 
     div.headerInicial {
