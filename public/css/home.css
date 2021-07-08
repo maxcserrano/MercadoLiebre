@@ -240,6 +240,15 @@ footer {
     
     header nav{
         display: inherit;
+        display: flex;
+    }
+
+    #primeraParte{
+        align-items: flex-start;
+    }
+
+    #segundaParte {
+        align-items: flex-end;
     }
 
     div.headerInicial {
